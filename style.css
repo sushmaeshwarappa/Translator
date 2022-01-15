@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;1,300&display=swap');
 
 :root{
-    --primary-color: #999900;
+    --primary-color: #B0C4DE;
     --max-width: 600px;
     --width-color: black;
     --color-gray: gray;
@@ -200,4 +200,8 @@ footer p{
         max-height: 4rem;
         max-width: 0rem;
     }
+}
+
+h3{
+    text-align: center;
 }
