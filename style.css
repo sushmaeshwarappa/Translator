@@ -91,6 +91,7 @@ footer p{
     margin: auto;
     max-width: var(--max-width);
 }
+
 @media screen and (min-width:325px) and (max-width:800px){
     #image{
         max-width: 5rem;
@@ -110,6 +111,7 @@ footer p{
         max-width: 0px;
     }
 }
+
 @media  (min-width:1000px) {
     .container{
         border-color: var(--width-color);
@@ -138,29 +140,6 @@ footer p{
     }
       
 }
-/*.container{
-    border-color: black;
-    border-width: 0.1rem;
-    border-style: solid;
-}
-#image{
-    max-width: 10rem;
-    max-height: 6rem;
-}
-
-.description{
-    margin-top: 2rem;
-    padding: 1rem;
-
-}
-
-.image{
-    padding: 1rem;
-    margin: 1rem;
-    max-height: 4rem;
-    max-width: 0px;
-}
-*/
 
 @media screen and (max-width:320px){
     #image{
