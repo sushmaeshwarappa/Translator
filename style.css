@@ -93,9 +93,17 @@ footer p{
 }
 
 @media screen and (min-width:325px) and (max-width:800px){
+    .container{
+        border-color: var(--width-color);
+        border-width: 0.1rem;
+        border-style: solid;
+        max-width: auto;
+        margin: 1px;
+    }
+
     #image{
-        max-width: 5rem;
-        max-height: 5rem;
+        max-width: 3.5rem;
+        max-height: 6rem;
     }
     
     .description{
